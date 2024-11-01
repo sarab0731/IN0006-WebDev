@@ -1,0 +1,142 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin:0px;
+  padding:0px;
+}
+header{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  background-color:black;
+  box-shadow: 0px -11px 45px -7px rgba(255,255,255,0.35);
+  margin:0px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo{
+  padding:20px;
+  max-width:250px;
+  height:auto;
+}
+
+.header-logo:hover{
+  opacity: 0.9;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.navigation-item {
+  flex: 1;
+}
+
+.navigation-link {
+  display:block;
+  text-decoration:none;
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #FFDE59;
+  padding: 20px;
+}
+
+.navigation-link:hover {
+  opacity: 0.5;
+  text-decoration: overline;
+  text-decoration-thickness: 2px;
+}
+
+.about{
+  display:flex;
+  margin:20px 40px 20px 40px;
+  padding:;
+}
+
+.values{
+  margin-left: 20px;
+  flex: 3;
+  
+}
+
+.about-h{
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.about-description{
+  font-family: "source-sans-pro", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.about-img{
+  max-height: 600px;
+  width: auto;
+  flex: 2;
+  border-bottom: 12px solid;
+  border-color: #ffde59;
+}
+
+@media (max-width: 1000px) {
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+  padding: 20px;
+  font-family: "source-sans-pro", sans-serif;
+}
+
+.footer-left {
+  flex: 1;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.f-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.f-navigation-item {
+  margin-bottom: 10px;
+}
+
+.f-navigation-link {
+  text-decoration: none;
+  color: white;
+}
+
+.f-navigation-link:hover {
+  color: #9e9e9e;
+}
+
+.footer-right {
+  text-align: right;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 14px;
+  color: #9e9e9e;
+}

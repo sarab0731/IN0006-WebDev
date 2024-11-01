@@ -1,0 +1,40 @@
+h1 {
+  margin-left: 20px;
+  text-align: left;
+  font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: antiquewhite;
+}
+
+
+p {
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%
+  line-height: 2px;
+  font-size: 20px;
+  font-weight: initial;
+  color: white;
+}
+
+ul {
+  font-size: 20px;
+}
+a {
+  color:antiquewhite
+}
+h2  {
+  font-size: 25px;
+  color: white
+  
+}
+
+body {
+  background: linear-gradient(to right, skyblue, lightyellow);
+}
+
+.box {
+  width: 25 Vw;
+  height: 30 Vh;
+}
